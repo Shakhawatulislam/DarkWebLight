@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background: url("2.jpg") no-repeat;
+  background-size: cover;
+}
+body{
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  height: 30vh;
+  width: 90%;
+  box-shadow: 0.5px 0.5px 5px dodgerblue, -0.5px -0.5px 5px dodgerblue;
+  background-color: #FFFFFF60;
+}
+h5{
+  padding: 6px 0 0 10px;
+}
+ul{
+  display: flex;
+  float: right;
+  position: absolute;
+  top: 22px;
+  right: 20px;
+}
+ul li{
+  font-size: 5px;
+  padding: 4px 8px 0 8px;
+  list-style: none;
+  text-decoration: underline black;
+}
+#home{
+  text-decoration: underline dodgerblue;
+}
+form{
+  box-shadow: 0.5px 0.5px 5px dodgerblue, -0.5px -0.5px 5px dodgerblue;
+  width: 30vw;
+  height: 19vh;
+  padding: 2px 0 8px 8px;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  border-radius: 0 20px;
+}
+input{
+  height: 17px;
+  width: 89px;
+  margin: 2px;
+}
+.box{
+  margin-top: 12px;
+}
+img{
+  margin: 10px 0 0 6px;
+}
+.admin{
+  font-size: 15px;
+}
+#btn1{
+  border: 0.5px solid dodgerblue;
+  height: 20px;
+  width: 42px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 18px;
+  margin-top: 4px;
+}
+span{
+  font-size: 10px;
+}
+h5{
+  margin-top: 22px;
+}
+p{
+  font-size: 10px;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+#btn2{
+  position: absolute;
+  left: 115px;
+  top: 170px;
+  border: 1px solid dodgerblue;
+}
+.icons {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.icons i{
+  padding: 2px 6px;
+  text-decoration: underline white;
+}
